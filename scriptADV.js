@@ -66,7 +66,8 @@ function printMe(where,what){
 
 //x is an object
 function plusOne(x){
-  x.num++;
+		if(x.num<100)
+			x.num++;
   x.click++;
 }
 
@@ -87,6 +88,7 @@ function check(max,num){
  }
  
  function minusOne(x){
+	 if(x.num>0)
 	x.num--;
 	x.click++;
  }

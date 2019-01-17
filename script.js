@@ -50,7 +50,8 @@ function print(where,what){
 
 //x is an object
 function plusOne(x){
-  x.num++;
+	if(x.num<100)
+		x.num++;
   x.click++;
 }
 
