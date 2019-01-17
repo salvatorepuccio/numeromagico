@@ -3,29 +3,41 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
+	* {
+  box-sizing: border-box;
+}
 	.title{
-		margin-left: 350px;
-		margin-top: 40px;
-		width: 40%;
-		padding: 20px;
+		
 		overflow: hidden;
 		background-color: yellow;
 	}
 	.main{
-		margin-left: 350px;
-		width: 40%;
-		padding: 20px;
+	
+		align: center;
 		overflow: hidden;
 		background-color: lightblue;
 	}
 	.bottom{
-		margin-left: 350px;
-		width: 40%;
-		padding: 20px;
+		
 		overflow: hidden;
 		background-color: yellow;
 	}
-	
+	@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 100%;
+    padding: 0;
+  }
+  .title {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .title, .bottom {
+    width: 100%;
+  }
+}
 	
 	</style>
   </head>
