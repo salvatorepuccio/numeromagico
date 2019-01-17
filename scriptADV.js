@@ -66,9 +66,9 @@ function printMe(where,what){
 
 //x is an object
 function plusOne(x){
-		if(x.num<100)
-			x.num++;
-  x.click++;
+	if(x.num<100)
+		x.num++;
+    x.click++;
 }
 
 function randomize(x){
@@ -88,8 +88,8 @@ function check(max,num){
  }
  
  function minusOne(x){
-	 if(x.num>0)
-	x.num--;
+    if(x.num>0)
+		x.num--;
 	x.click++;
  }
  
