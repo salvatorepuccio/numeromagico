@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	.title{
+		margin-left: 350px;
+		margin-top: 40px;
+		width: 40%;
+		padding: 20px;
+		overflow: hidden;
+		background-color: yellow;
+	}
+	.main{
+		margin-left: 350px;
+		width: 40%;
+		padding: 20px;
+		overflow: hidden;
+		background-color: lightblue;
+	}
+	.bottom{
+		margin-left: 350px;
+		width: 40%;
+		padding: 20px;
+		overflow: hidden;
+		background-color: yellow;
+	}
+	</style>
+  </head>
+
+  <body style='font-family: Verdana'>
+	<div style='overflow:auto' class='title'>
+		<h1>Trova il Numero MAGICO!</h1>
+	</div>
+	
+	<div style="overflow:auto" class='main'>
+		<p>Con quanti click riesci a trovare il Numero MAGICO? (da 0 a 100)</p>
+		<p id ='paragraph'>Il Numero MAGICO e` ?</p>
+		<div id = 'display'>0</div>
+		<p></p>
+		<button id='button'>+1</button>
+		<button id='button2'>Reset</button>
+		<p></p>
+		<button id='buttonRandom'>Random number</button><p></p>
+	</div>
+	<div style="overflow:auto" class="bottom">
+		<a id="advmode" href="advmode.html">Advanced Mode</a>
+	</div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
